@@ -6,12 +6,12 @@ It was created to remove excludetests from b2g.json, b2g-debug.json, b2g-desktop
 
 Usage
 
-    Download Firefox build.
-    Clone mochitest-tools repository
-    Edit the filename of js1, js2, js3 variables to put your local path in b2geditor.py
-    Edit outfile1, outfile2, outfile3 to put your local path in b2geditor.py
-    Run b2geditor.py and view the results
-    If everything is proper, skip-ifs will be added to mochitest.ini files for corresponding entries in b2g.json, b2g-debug.json, b2g-desktop.json
+    1) Download Firefox build.
+    2) Clone mochitest-tools repository
+    3) Edit the filename of js1, js2, js3 variables to put your local path in b2geditor.py
+    4) Edit outfile1, outfile2, outfile3 to put your local path in b2geditor.py
+    5) Run b2geditor.py and view the results
+If everything is proper, skip-ifs will be added to mochitest.ini files for corresponding entries in b2g.json, b2g-debug.json, b2g-desktop.json
 
 Limitations
 
